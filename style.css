@@ -50,6 +50,18 @@ main {
   padding: 2rem 5rem;
 }
 
+#main_body_HTML {
+  margin-left: 5rem;
+  border: solid black;
+  padding: 1rem;
+}
+
+#main_body_CSS {
+  margin-left: 5rem;
+  border: solid black;
+  padding: 1rem;
+}
+
 nav {
   position: fixed;
   background-color: #82204A;
