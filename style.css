@@ -2,13 +2,15 @@
   max-width:max-content;
   padding: 0 .75rem .75rem .75rem;
 }
+
 a {
   text-decoration: none;
-  color: rgb(238, 149, 149);
+  color: rgb(232, 138, 156);
 }
 
 aside {
   text-align: justify;
+  padding: .4rem;
 }
 
 body {
@@ -16,7 +18,7 @@ body {
 
 header {
   padding: 5rem 3rem;
-  background-color: #f8ed99;
+  background-color: #f8e916;
   max-height: 2rem;
   box-shadow: 10px 10px 1px;
   max-width: 100%;
@@ -29,12 +31,6 @@ h2 {
   width: 300px;
   height: 75px;
   box-shadow: 10px 10px 1px;
-}
-
-h3 {
-  background-color: white;
-  box-shadow: 8px 8px 1px #f8ed99;
-  width: 120px;
 }
 
 #header__sub {
@@ -54,18 +50,18 @@ main {
   padding: 2rem 5rem;
 }
 
-#main_body_HTML {
-  margin-left: 5rem;
+#main_body {
+  margin: 0rem, 5rem, 0rem, 5rem;
   border: solid black;
-  padding: 1rem;
+  max-width: 100%;
+  padding: .6rem;
   border-width: 2px;
 }
 
-#main_body_CSS {
-  margin-left: 5rem;
-  border: solid black;
-  padding: 1rem;
-  border-width: 2px;
+#main_body h3 {
+  background-color: white;
+  box-shadow: 8px 8px 1px #f8e916;
+  width: 120px;
 }
 
 nav {
@@ -78,6 +74,7 @@ nav {
 #nav__bar {
   max-width:max-content;
 }
+
 ul li{
   font-size: 20px;
   display: inline-block;
@@ -89,7 +86,7 @@ color: white;
 max-width: 100%;
 padding: .75rem .75rem;
 }
-/*update*/
+
 
 /* Below this comment is the code for the call out image text */
 
@@ -115,6 +112,6 @@ padding: .75rem .75rem;
   margin: 50px auto;
   max-width: 650px;
   font-size: 20px;
-  background: linear-gradient(135deg,#f8ed99, white) border-box;
+  background: linear-gradient(135deg,#f8e916, white) border-box;
   color: black;
 }
