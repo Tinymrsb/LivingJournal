@@ -11,6 +11,7 @@ a {
 aside {
   text-align: justify;
   padding: .4rem;
+  max-width: 80%;
 }
 
 body {
@@ -28,7 +29,7 @@ h2 {
   text-align: justify;
   padding: 10px;
   background-color: white;
-  width: 300px;
+  max-width: 400px;
   height: 75px;
   box-shadow: 10px 10px 1px;
 }
