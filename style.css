@@ -1,11 +1,11 @@
 * {
-  max-width:max-content;
+  max-width: 100%;
   padding: 0 .75rem .75rem .75rem;
 }
 
 a {
   text-decoration: none;
-  color: rgb(232, 138, 156);
+  color: rgb(66, 5, 16);
 }
 
 body {
@@ -13,7 +13,7 @@ body {
 
 header {
   padding: 5rem 3rem;
-  background-color: #f8e916;
+  background-color: #FFF01F;
   max-height: 2rem;
   box-shadow: 10px 10px 1px;
   max-width: 100%;
@@ -39,6 +39,11 @@ header {
   padding: 30px;
 }
 
+.images {
+  max-width: 50%;
+  max-height: 50%;
+}
+
 main {
   margin-top: 1.5rem;
   background-color: #EFF7FF;
@@ -55,7 +60,7 @@ main {
 
 #main_body h3 {
   background-color: white;
-  box-shadow: 8px 8px 1px #f8e916;
+  box-shadow: 8px 8px 1px #FFF01F;
   float: right;
   width: 120px;
   top: 0;
@@ -66,13 +71,15 @@ main {
 
 nav {
   position: absolute;
-  background-color: #82204A;
+  background-color: #1F9EFF;
   color: white;
   max-height: 2.5rem;
+  width: fit-content;
+  
 }
 
-#nav__bar {
-  max-width:max-content;
+/* How do I center this twitter feed? */
+.twitter-timeline {
 }
 
 ul li{
@@ -80,13 +87,19 @@ ul li{
   display: inline-block;
 }
 
+
 footer {
-background-color: #82204A;
+background-color: #1F9EFF;
 color: white;
 max-width: 100%;
-padding: .75rem .75rem;
+padding-top: 1rem;
 }
 
+#contact {
+  background-color: #EFF7FF;
+  color: black;
+  padding: .7rem;
+}
 
 /* Below this comment is the code for the call out image text */
 
@@ -112,6 +125,6 @@ padding: .75rem .75rem;
   margin: 50px auto;
   max-width: 650px;
   font-size: 20px;
-  background: linear-gradient(135deg,#f8e916, rgb(255, 249, 182)) border-box;
+  background: linear-gradient(135deg,#FFF01F, rgb(255, 249, 182)) border-box;
   color: black;
 }
