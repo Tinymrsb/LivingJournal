@@ -42,6 +42,14 @@ header {
 .images {
   max-width: 25%;
   max-height: 25%;
+  margin: 0 auto;
+}
+
+.comment {
+  margin: 2rem auto;
+  background-color:#FFF01F;
+  border: solid white 5px;
+  padding: 1rem;
 }
 
 main {
@@ -53,7 +61,6 @@ main {
 #main_body {
   margin: 0rem, 5rem, 0rem, 5rem;
   border: solid black;
-  max-width: 100%;
   padding: .6rem;
   border-width: 2px;
 }
@@ -62,7 +69,6 @@ main {
   background-color: white;
   box-shadow: 8px 8px 1px #FFF01F;
   float: right;
-  width: 120px;
   top: 0;
   right: 0;
   opacity: 0.63;
@@ -99,32 +105,4 @@ padding-top: 1rem;
   background-color: #EFF7FF;
   color: black;
   padding: .7rem;
-}
-
-/* Below this comment is the code for the call out image text */
-
-.tooltip {
-  --r: 30px; /* control the radius */
-  --h: 50px; /* control the height of the tail */
-  --p: 30%;  /* control the position of the tail */
-
-  padding: var(--r);
-  border-bottom: var(--h) solid #0000;
-  --m:
-    /* adjust the angles of the 1st conic-gradient to control the shape */
-    conic-gradient(from 30deg at var(--p) 100%,#0000,#000 1deg 30deg,#0000 31deg)
-     0 100%/100% calc(100% - var(--r)) no-repeat,
-    conic-gradient(at calc(var(--r)/2) calc(var(--r)/2),#000 270deg,#0000 0)
-     0 0/calc(100% - var(--r)/2) calc(100% - var(--r)/2) padding-box,
-    radial-gradient(50% 50%,#000 98%,#0000) 
-     0 0/var(--r) var(--r) space padding-box;
-  -webkit-mask: var(--m);
-          mask: var(--m);
-  
-    
-  margin: 50px auto;
-  max-width: 650px;
-  font-size: 20px;
-  background: linear-gradient(135deg,#FFF01F, rgb(255, 249, 182)) border-box;
-  color: black;
 }
