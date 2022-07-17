@@ -1,6 +1,6 @@
 * {
   max-width: 100%;
-  padding: 0 .75rem .75rem .75rem;
+  padding: 0 0.75rem 0.75rem 0.75rem;
 }
 
 a {
@@ -9,19 +9,23 @@ a {
 }
 
 body {
-  background: radial-gradient(circle at 10% 20%, rgb(254, 255, 165) 0%, rgb(255, 232, 182) 90%);
+  background: radial-gradient(
+    circle at 10% 20%,
+    rgb(254, 255, 165) 0%,
+    rgb(255, 232, 182) 90%
+  );
 }
 
 header {
   padding: 5rem 3rem;
-  background-color: #FFF01F;
+  background-color: #fff01f;
   max-height: 2rem;
-  box-shadow: 10px 10px 1px;
+  box-shadow: 10px 10px 1px 10%;
   max-width: 100%;
 }
 
 #header__sub {
-  text-align:right;
+  text-align: right;
   text-decoration: overline;
 }
 
@@ -48,27 +52,27 @@ header {
 
 .comment {
   margin: 2rem auto;
-  background-color:#FFF01F;
+  background-color: #fff01f;
   border: solid white 5px;
   padding: 1rem;
 }
 
 main {
   margin-top: 1.5rem;
-  background-color: #EFF7FF;
+  background-color: #eff7ff;
   padding: 2rem 5rem;
 }
 
 #main_body {
   margin: 0rem, 5rem, 0rem, 5rem;
   border: solid black;
-  padding: .6rem;
+  padding: 0.6rem;
   border-width: 2px;
 }
 
 #main_body h3 {
   background-color: white;
-  box-shadow: 8px 8px 1px #FFF01F;
+  box-shadow: 8px 8px 1px #fff01f;
   float: right;
   top: 0;
   right: 0;
@@ -78,32 +82,38 @@ main {
 
 nav {
   position: absolute;
-  background-color: #1F9EFF;
+  background-color: #1f9eff;
   color: white;
   max-height: 2.5rem;
   width: fit-content;
-  
+}
+
+.navigation {
+  width: 100%;
 }
 
 /* How do I center this twitter feed? */
 .twitter-timeline {
 }
 
-ul li{
+ul li {
   font-size: 20px;
   display: inline-block;
 }
 
-
 footer {
-  background: radial-gradient(circle at 10% 20%, rgb(254, 255, 165) 0%, rgb(255, 232, 182) 90%);;
-color: rgb(41, 21, 21);
-max-width: 100%;
-padding-top: 1rem;
+  background: radial-gradient(
+    circle at 10% 20%,
+    rgb(254, 255, 165) 0%,
+    rgb(255, 232, 182) 90%
+  );
+  color: rgb(41, 21, 21);
+  max-width: 100%;
+  padding-top: 1rem;
 }
 
 #contact {
-  background-color: #EFF7FF;
+  background-color: #eff7ff;
   color: black;
-  padding: .7rem;
+  padding: 0.7rem;
 }
